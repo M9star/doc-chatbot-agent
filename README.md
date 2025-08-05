@@ -1,7 +1,7 @@
 # Document Chatbot Agent
 
 ## Overview
-This project is a conversational AI agent that can answer user queries from any documents (PDF, TXT) in the `data/` folder and book appointments via a conversational form. It uses LangChain, Hugging Face models, and custom validation logic.
+This project is a conversational AI agent that can answer user queries from any documents (PDF, TXT) in the `data/` folder and book appointments via a conversational form. It uses LangChain, Hugging Face models (specifically `google/flan-t5-base` for document QA), and custom validation logic.
 
 ## Features
 - **Document QA:** Ask questions about the contents of any PDF or TXT file in the `data/` folder.
